@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ValidationSuite">
+	<test name="ValidationTests">
+		<groups>
+			<run>
+				<include name="Validation" />
+			</run>
+		</groups>
+		<classes>
+			<!-- Include all test classes where validation tests are defined -->
+			<class name="com.ts.testlayer.Test_DepartmentMaster" />
+			<class name="com.ts.testlayer.Test_CountryMaster" />
+		</classes>
+	</test>
+</suite>
